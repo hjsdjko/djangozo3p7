@@ -1,0 +1,112 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/chat/chat",
+    "pages/shop-recharge/recharge",
+    "pages/shop-recharge/pay-confirm",
+    "pages/shop-cart/shop-cart",
+    "pages/shop-order-confirm/shop-order-confirm",
+    "pages/shop-address/shop-address",
+    "pages/shop-address-detail/shop-address-detail",
+    "pages/shop-order/shop-order",
+    "pages/shop-order/logistics",
+    "pages/news-detail/news-detail",
+    "pages/yezhu/list",
+    "pages/yezhu/add-or-update",
+    "pages/yezhu/detail",
+    "pages/shangpinleixing/list",
+    "pages/shangpinleixing/add-or-update",
+    "pages/shangpinleixing/detail",
+    "pages/shangpinxinxi/list",
+    "pages/shangpinxinxi/add-or-update",
+    "pages/shangpinxinxi/detail",
+    "pages/jiaofeixinxi/list",
+    "pages/jiaofeixinxi/add-or-update",
+    "pages/jiaofeixinxi/detail",
+    "pages/cheweixinxi/list",
+    "pages/cheweixinxi/add-or-update",
+    "pages/cheweixinxi/detail",
+    "pages/yudingchewei/list",
+    "pages/yudingchewei/add-or-update",
+    "pages/yudingchewei/detail",
+    "pages/ruchangxinxi/list",
+    "pages/ruchangxinxi/add-or-update",
+    "pages/ruchangxinxi/detail",
+    "pages/chuchangxinxi/list",
+    "pages/chuchangxinxi/add-or-update",
+    "pages/chuchangxinxi/detail",
+    "pages/tingchefeiyong/list",
+    "pages/tingchefeiyong/add-or-update",
+    "pages/tingchefeiyong/detail",
+    "pages/storeup/list",
+    "pages/storeup/add-or-update",
+    "pages/storeup/detail",
+    "pages/news/list",
+    "pages/news/add-or-update",
+    "pages/news/detail",
+    "pages/messages/list",
+    "pages/messages/liuyan",
+    "pages/discussshangpinxinxi/list",
+    "pages/discussshangpinxinxi/add-or-update",
+    "pages/discussshangpinxinxi/detail",
+    "pages/discusscheweixinxi/list",
+    "pages/discusscheweixinxi/add-or-update",
+    "pages/discusscheweixinxi/detail",
+    "pages/pay-confirm/pay-confirm",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "基于微信平台小区服务系统",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#BBBBBB",
+    "selectedColor": "#366F70",
+    "borderStyle": "white",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/shangpinxinxi/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "商品信息"
+      },
+      {
+        "pagePath": "pages/news/list",
+        "iconPath": "static/tabs/news.png",
+        "selectedIconPath": "static/tabs/news_act.png",
+        "text": "社区资讯"
+      },
+      {
+        "pagePath": "pages/shop-cart/shop-cart",
+        "iconPath": "static/tabs/cart.png",
+        "selectedIconPath": "static/tabs/cart1.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
